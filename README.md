@@ -13,7 +13,7 @@ An interactive **Tkinter + Matplotlib** application for studying the nonlinear
 | [Physics model](#physics-model)       | Equations of motion and energy expressions        |
 | [Numerical scheme](#numerical-scheme) | Solver, tolerances, and drift control             |
 | [Extending](#extending)               | Where to patch if you need damping, exports, etc. |
-| [License](#license)                   | MIT, because nothing here is worth a lawsuit      |
+| [License](#license)                   | MIT      |
 
 ---
 
@@ -76,8 +76,7 @@ where $\delta = \theta_2-\theta_1$.
 Total mechanical energy
 
 ```math
-E = \frac12 m_1 L_1^2 \omega_1^2 + \frac12 m_2\bigl[L_1^2 \omega_1^2 + L_2^2 \omega_2^2 + 2 L_1L_2 \omega_1\omega_2 \cos\delta\bigr]
-+ m_1 g L_1(1-\cos\theta_1) + m_2 g\bigl[L_1(1-\cos\theta_1)+L_2(1-\cos\theta_2)\bigr].
+{\textstyle E = \frac12 m_1 L_1^2 \omega_1^2 + \frac12 m_2\bigl[L_1^2 \omega_1^2 + L_2^2 \omega_2^2 + 2 L_1L_2 \omega_1\omega_2 \cos\delta\bigr] + m_1 g L_1(1-\cos\theta_1) + m_2 g\bigl[L_1(1-\cos\theta_1)+L_2(1-\cos\theta_2)\bigr].}
 ```
 
 ### Compound (uniform rods)
