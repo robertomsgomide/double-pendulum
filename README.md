@@ -41,9 +41,9 @@ The program opens a resizable window. If you’re on Linux and Tkinter is missin
 ## Features
 
 * **Two physical models** – switch between *simple* (point masses) and *compound* (uniform rods, correct moments of inertia).
-* **Parameter panel** – edit lengths $L_1,L_2$, masses $m_1,m_2$, initial angles $\theta_1,\theta_2$, angular velocities, and simulation horizon; *Enter* or focus‑out auto‑applies.
+* **Parameter panel** – edit lengths $L_1,L_2$, masses $m_1, m_2$, initial angles $\theta_1,\theta_2$, angular velocities, and simulation horizon; *Enter* or focus-out auto-applies.
 * **Drag‑and‑drop initial conditions** – click a bob or rod, pull it anywhere on the circle dictated by its length, release, and the solver restarts.
-* **Playback controls** – play/pause, single‑step $\ll,\gg$, jump via time slider, clear traces.
+* **Playback controls** – play/pause, single-step &lt;&lt;,&gt;&gt;, jump via time slider, clear traces.
 * **Energy monitor** – bottom‑right readout of relative drift $(E(t)-E_0)/E_0$. Useful for judging integrator accuracy.
 * **Traces & colours** – each run leaves a faded trajectory, colour‑cycled so comparisons stay readable.
 * **Window‑safe** – graceful shutdown closes the Matplotlib backend and frees the Tcl/Tk interpreter.
