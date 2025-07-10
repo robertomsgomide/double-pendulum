@@ -3,6 +3,11 @@
 An interactive **Tkinter + Matplotlib** application for studying the nonlinear dynamics and chaotic behaviour of a double pendulum. Two physical models are supported—**simple** (point‐mass bobs) and **compound** (uniform rods)—and the GUI lets you tweak parameters, drag the pendulum into arbitrary initial states, and monitor numerical energy drift in real time.
 
 ---
+![demo](https://github.com/user-attachments/assets/39a9bfbe-d651-40b4-9fdf-0647824761b9)
+
+
+
+
 
 ## Contents
 
