@@ -84,7 +84,7 @@ Total mechanical energy
 Each rod is a rigid body with centre of mass at $L/2$ and moment of inertia $I=\tfrac13 mL^2$ about its pivot. The mass matrix $\mathbf M$, velocity‑dependent Coriolis vector $\mathbf C$, and gravity vector $\mathbf G$ lead to the compact form
 
 $$
-\mathbf M(\theta)\,\dot{\boldsymbol\omega} = \mathbf G(\theta) - \mathbf C(\theta,\boldsymbol\omega),
+\mathbf M(\theta)\\dot{\boldsymbol\omega} = \mathbf G(\theta) - \mathbf C(\theta,\boldsymbol\omega),
 $$
 
 which is solved explicitly for $\dot{\boldsymbol\omega}$ in *double\_pendulum\_deriv*.
